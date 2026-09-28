@@ -4,6 +4,11 @@ Cybersecurity student graduating in **December 2026** with hands-on experience i
 
 I am currently preparing for entry-level opportunities in **IT, SOC operations, and cybersecurity**.
 
+## 🎓 Education
+
+**University of Texas at San Antonio (UTSA)**  
+B.B.A. in Cyber Security — Expected December 2026
+
 ## 🔐 Cybersecurity Focus
 
 - Cloud Security

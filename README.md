@@ -29,50 +29,10 @@ GPA: **3.6**
 
 ## 🛠️ Technical Skills
 
-**SIEM & Detection**
-- Splunk Enterprise
-- Splunk Universal Forwarder
-- SPL
-- Sysmon
-- Windows Event Logs
-- Detection Engineering
-- Alert Tuning
-- Dashboard Studio
-- MITRE ATT&CK
-- Log Correlation
-
-**Cloud & IAM**
-- Microsoft Azure
-- Azure RBAC
-- Managed Identities
-- Virtual Networks & Subnets
-- Network Security Groups
-- Azure Activity Log
-- Azure Policy
-- Microsoft Entra ID concepts
-- Azure CLI
-
-**Security & Network Analysis**
-- Wireshark
-- NetworkMiner
-- Snort
-- Nmap
-- Vulnerability Assessment
-- Packet Analysis
-- Incident Reconstruction
-- Registry & Process Analysis
-- Memory Forensics
-
-**Systems & Scripting**
-- Windows
-- Linux (Ubuntu, Kali)
-- PowerShell
-- Bash
-- Python
-- Java
-- SQL
-- Git & GitHub
-- VMware
+- **SIEM & Detection:** Splunk Enterprise, SPL, Sysmon, Windows Event Logs, alert tuning, dashboards, MITRE ATT&CK.
+- **Cloud & IAM:** Microsoft Azure, RBAC, managed identities, VNets, NSGs, Activity Log, Azure CLI.
+- **Investigation & Networking:** Wireshark, Volatility, Nmap, Snort, packet analysis, memory forensics, incident reconstruction.
+- **Systems & Scripting:** Windows, Linux, PowerShell, Bash, Python, Git/GitHub, VMware.
 
 ## 🚀 Featured Projects
 

@@ -112,6 +112,18 @@ Highlights:
 
 🔗 [View the Azure Cloud Security & IAM Lab](https://github.com/714tenny/azure-cloud-security-iam-lab)
 
+## 🔎 Additional Labs & Investigations
+
+Documented academic labs with investigation notes, screenshots, tools, findings, and evidence limitations.
+
+- **[OnyxCrew Malware Analysis](https://github.com/714tenny/onyxcrew-malware-analysis)** — Static analysis of a UPX-packed sample, string extraction, and indicator documentation.
+- **[Poison Ivy Memory Forensics](https://github.com/714tenny/poison-ivy-memory-forensics)** — Volatility analysis correlating process ancestry, DLLs, file paths, and network artifacts.
+- **[FTP Server Compromise Investigation](https://github.com/714tenny/ftp-compromise-investigation)** — Anonymous FTP enumeration and Windows host triage linking suspicious files, processes, and port checks.
+- **[Attack Analysis & Incident Reconstruction](https://github.com/714tenny/attack-analysis-incident-reconstruction)** — Wireshark and event-log analysis reconstructing SMB/RPC activity, a victim callback, and a PE file transfer.
+- **[Windows Host Hardening & Control Validation](https://github.com/714tenny/windows-host-hardening)** — Local account, service, RDP listener, and browser-control checks with documented validation gaps.
+- **[Cryptography & Data Protection Fundamentals](https://github.com/714tenny/cryptography-and-data-protection)** — Coursework demonstrating document protection, AES encryption/decryption, hashing, and information hiding.
+- **[Linux Filesystem, Permissions & Memory Management](https://github.com/714tenny/linux-filesystem-and-memory-management)** — GPT partitions, inodes, links, permissions, and C debugging with GCC and GDB.
+
 ## 🎯 Current Goals
 
 - Begin my career in IT, SOC operations, or cybersecurity

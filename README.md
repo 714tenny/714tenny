@@ -1,115 +1,125 @@
 # Hi, I'm Tenny Wu 👋
 
-Cybersecurity student graduating in **December 2026** with hands-on experience in cloud security, networking, IAM, security analysis, digital forensics, and automation.
+Cybersecurity student graduating in **December 2026** with hands-on experience in SOC/SIEM monitoring, cloud security, network security, IAM/RBAC, vulnerability assessment, incident response, and digital forensics.
 
-I am currently preparing for entry-level opportunities in **IT, SOC operations, and cybersecurity**.
+I am preparing for entry-level opportunities in **IT, SOC operations, and cybersecurity**.
 
 ## 🎓 Education
 
 **University of Texas at San Antonio (UTSA)**  
-B.B.A. in Cyber Security — Expected December 2026
+B.B.A. in Cyber Security — Expected December 2026  
+GPA: **3.6**
+
+## 📜 Certification
+
+- **CompTIA Security+ (SY0-701)**
 
 ## 🔐 Cybersecurity Focus
 
+- Security Operations & SIEM
+- Detection Engineering
+- Incident Investigation & Response
 - Cloud Security
-- Network Security
 - Identity & Access Management
-- Security Operations
-- Digital Forensics
+- Network Security
 - Vulnerability Assessment
-- Incident Analysis
+- OT/ICS Security
+- Digital Forensics
 - Security Automation
 
 ## 🛠️ Technical Skills
 
-**Cloud & Security**
+**SIEM & Detection**
+- Splunk Enterprise
+- Splunk Universal Forwarder
+- SPL
+- Sysmon
+- Windows Event Logs
+- Detection Engineering
+- Alert Tuning
+- Dashboard Studio
+- MITRE ATT&CK
+- Log Correlation
+
+**Cloud & IAM**
 - Microsoft Azure
 - Azure RBAC
 - Managed Identities
+- Virtual Networks & Subnets
 - Network Security Groups
-- Microsoft Entra ID concepts
 - Azure Activity Log
-
-**Networking**
-- TCP/IP
-- DNS
-- HTTP/HTTPS
-- SSH
-- RDP
-- Network Segmentation
-- Wireshark
-
-**Security & Forensics**
-- Vulnerability Assessment
-- Security Misconfiguration Analysis
-- Incident Investigation
-- Memory Forensics
-- Network Traffic Analysis
-- Risk Assessment
-- Remediation & Validation
-
-**Tools & Technologies**
+- Azure Policy
+- Microsoft Entra ID concepts
 - Azure CLI
-- Bash
-- Git
-- GitHub
+
+**Security & Network Analysis**
 - Wireshark
-- Volatility
+- NetworkMiner
+- Snort
 - Nmap
-- Autopsy
+- Vulnerability Assessment
+- Packet Analysis
+- Incident Reconstruction
+- Registry & Process Analysis
+- Memory Forensics
+
+**Systems & Scripting**
 - Windows
-- Linux
+- Linux (Ubuntu, Kali)
+- PowerShell
+- Bash
+- Python
+- Java
+- SQL
+- Git & GitHub
+- VMware
 
-## 📜 Certifications
+## 🚀 Featured Projects
 
-- **CompTIA Security+**
+### SOC/SIEM Detection & Incident Response Lab
 
-## ☁️ Featured Project
+Built an isolated SOC monitoring environment using **Splunk Enterprise, Windows 11, Sysmon, Splunk Universal Forwarder, and VMware**.
+
+Highlights:
+
+- Forwarded Windows Security and Sysmon telemetry into dedicated Splunk indexes
+- Built custom search-time field extraction for Sysmon and Windows Security XML events
+- Engineered and validated **5 SPL detections** for suspicious PowerShell, Run-key persistence, Rundll32 abuse, PowerShell network activity, and repeated failed logons
+- Baselined normal activity, tuned false positives, and configured scheduled alerts
+- Built a Splunk SOC dashboard for endpoint, authentication, network, and detection visibility
+- Investigated a controlled multi-stage incident using **ProcessGuid** correlation across process, file, registry, child-process, and network events
+- Reconstructed an incident timeline and mapped activity to **MITRE ATT&CK**
+- Documented sanitized Sysmon and Splunk configuration artifacts in GitHub
+
+🔗 [View the SOC/SIEM Detection & Incident Response Lab](https://github.com/714tenny/soc-siem-detection-lab)
+
+---
 
 ### Azure Cloud Security & IAM Lab
 
-Built and secured a fictional small-business Azure environment to gain hands-on experience with cloud security and IAM.
+Built and secured a fictional small-business Azure environment focused on cloud security, IAM, least privilege, and remediation validation.
 
-Key work included:
+Highlights:
 
-- Designed a segmented Azure Virtual Network
-- Created management and workload subnets
-- Configured Network Security Groups
-- Implemented least-privilege Azure RBAC
-- Used managed identities for role-based access
-- Identified and remediated insecure SSH access
-- Identified and removed excessive RBAC permissions
-- Investigated remediation actions using Azure Activity Log
+- Designed a segmented Azure Virtual Network with management and workload subnets
+- Configured Network Security Groups to restrict management access and block workload-to-management traffic
+- Implemented least-privilege Azure RBAC with managed identities
+- Created and remediated controlled SSH and excessive-permission findings
+- Investigated remediation activity using Azure Activity Log
 - Validated security controls using Azure CLI
-- Created a Bash security-review script for repeatable configuration checks
-- Documented architecture, findings, remediation, evidence, and final security posture
+- Created a Bash security-review script for repeatable NSG and RBAC checks
+- Documented architecture, evidence, findings, and final security posture
 
 🔗 [View the Azure Cloud Security & IAM Lab](https://github.com/714tenny/azure-cloud-security-iam-lab)
 
 ## 🎯 Current Goals
 
-- Continue building hands-on cybersecurity projects
-- Strengthen SOC and incident-response skills
-- Expand cloud-security knowledge
-- Gain additional experience with security automation
-- Begin my career in IT or cybersecurity
+- Begin my career in IT, SOC operations, or cybersecurity
+- Continue strengthening detection engineering and incident-response skills
+- Expand cloud-security and security-automation experience
+- Build practical projects that demonstrate real investigation and remediation workflows
 
 ## 🤝 Connect With Me
 
 - [LinkedIn](https://www.linkedin.com/in/tenny-wu-283965310)
 - [GitHub](https://github.com/714tenny)
-
-<!--
-**714tenny/714tenny** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->

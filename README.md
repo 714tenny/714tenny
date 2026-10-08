@@ -1,6 +1,6 @@
 # Hi, I'm Tenny Wu 👋
 
-Cybersecurity student graduating in **December 2026** with hands-on experience in SOC/SIEM monitoring, cloud security, network security, IAM/RBAC, vulnerability assessment, incident response, and digital forensics.
+CompTIA **Security+ and Network+ certified** cybersecurity student graduating in **December 2026** with hands-on experience in SOC/SIEM monitoring, cloud security, network security, IAM/RBAC, vulnerability assessment, incident response, and digital forensics.
 
 I am preparing for entry-level opportunities in **IT, SOC operations, and cybersecurity**.
 
@@ -10,9 +10,10 @@ I am preparing for entry-level opportunities in **IT, SOC operations, and cybers
 B.B.A. in Cyber Security — Expected December 2026  
 GPA: **3.6**
 
-## 📜 Certification
+## 📜 Certifications
 
 - **CompTIA Security+ (SY0-701)**
+- **CompTIA Network+**
 
 ## 🔐 Cybersecurity Focus
 

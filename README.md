@@ -20,6 +20,7 @@ GPA: **3.6**
 - Security Operations & SIEM
 - Detection Engineering
 - Incident Investigation & Response
+- Active Directory & Windows Enterprise Security
 - Cloud Security
 - Identity & Access Management
 - Network Security
@@ -31,9 +32,10 @@ GPA: **3.6**
 ## 🛠️ Technical Skills
 
 - **SIEM & Detection:** Splunk Enterprise, SPL, Sysmon, Windows Event Logs, alert tuning, dashboards, MITRE ATT&CK.
+- **Windows & Identity Security:** Active Directory Domain Services, DNS, Group Policy, OUs, security groups, least privilege, advanced audit policy, privileged-access monitoring.
 - **Cloud & IAM:** Microsoft Azure, RBAC, managed identities, VNets, NSGs, Activity Log, Azure CLI.
 - **Investigation & Networking:** Wireshark, Volatility, Nmap, Snort, packet analysis, memory forensics, incident reconstruction.
-- **Systems & Scripting:** Windows, Linux, PowerShell, Bash, Python, Git/GitHub, VMware.
+- **Systems & Scripting:** Windows Server, Windows 11, Linux, PowerShell, Bash, Python, Git/GitHub, VMware.
 
 ## 🚀 Featured Projects
 
@@ -53,6 +55,26 @@ Highlights:
 - Documented sanitized Sysmon and Splunk configuration artifacts in GitHub
 
 🔗 [View the SOC/SIEM Detection & Incident Response Lab](https://github.com/714tenny/soc-siem-detection-lab)
+
+---
+
+### Active Directory / Windows Enterprise Security Lab
+
+Built and secured an isolated Windows enterprise environment using **Active Directory Domain Services, Windows Server, Windows 11, Group Policy, Sysmon, Splunk, PowerShell, and VMware**.
+
+Highlights:
+
+- Deployed a single-domain Active Directory environment with DNS, departmental OUs, users, and role-based security groups
+- Separated standard and privileged identities using least-privilege administration
+- Enforced workstation administrator access with **Group Policy Restricted Groups**
+- Hardened workstation logon and audit policies and enabled advanced Windows Security auditing
+- Deployed Sysmon and forwarded Windows Security and Sysmon telemetry into Splunk
+- Investigated authentication, privileged-logon, and local Administrators group-change activity using Windows Event IDs **4624, 4625, 4672, 4732, and 4733**
+- Assessed and remediated Active Directory password and lockout weaknesses, including a **14-character minimum password length** and **5-attempt / 15-minute lockout policy**
+- Completed a PowerShell security audit and reconstructed a controlled privileged-access incident using Windows Security and Sysmon evidence
+- Mapped investigation activity to **MITRE ATT&CK T1078 (Valid Accounts)** and **T1098 (Account Manipulation)**
+
+🔗 [View the Active Directory / Windows Enterprise Security Lab](https://github.com/714tenny/active-directory-windows-security-lab)
 
 ---
 
@@ -89,8 +111,8 @@ Documented academic labs with investigation notes, screenshots, tools, findings,
 
 - Begin my career in IT, SOC operations, or cybersecurity
 - Continue strengthening detection engineering and incident-response skills
-- Expand cloud-security and security-automation experience
-- Build practical projects that demonstrate real investigation and remediation workflows
+- Expand Windows enterprise security, cloud-security, and security-automation experience
+- Build practical projects that demonstrate real investigation, hardening, remediation, and validation workflows
 
 ## 🤝 Connect With Me
 
